@@ -1,9 +1,8 @@
 ---
 permalink: /
-title: "I am a PhD-Candidate at Goethe University Frankfurt, entering the academic job market 2023/24"
+title: "Stefan Girstmair"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
   - /about/
   - /about.html
 ---
