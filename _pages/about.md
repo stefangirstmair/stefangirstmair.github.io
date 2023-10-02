@@ -16,9 +16,9 @@ I will be available for interviews at both, the 2023-2024 *American Job Market* 
 
 
 ### References:
-- *Michael Binder*, Goethe University Frankfurt, [mbinder@wiwiw.uni-frankfurt.de](mailto:mbinder@wiwiw.uni-frankfurt.de) <br> 
-- *Volker Wieland*, Goethe University Frankfurt, [wieland@imfs-frankfurt.de](mailto:wieland@imfs-frankfurt.de) <br> 
-- *Matteo Ciccarelli*, European Central Bank, [matteo.ciccarelli@ecb.europa.eu](mailto:matteo.ciccarelli@ecb.europa.eu) <br> 
+- *Prof. Michael Binder, Ph.D.*, Goethe University Frankfurt, [mbinder@wiwiw.uni-frankfurt.de](mailto:mbinder@wiwiw.uni-frankfurt.de) <br> 
+- *Prof. Volker Wieland, Ph.D.*, Goethe University Frankfurt, [wieland@imfs-frankfurt.de](mailto:wieland@imfs-frankfurt.de) <br> 
+- *Matteo Ciccarelli, Ph.D.*, European Central Bank, [matteo.ciccarelli@ecb.europa.eu](mailto:matteo.ciccarelli@ecb.europa.eu) <br> 
 
 
 
