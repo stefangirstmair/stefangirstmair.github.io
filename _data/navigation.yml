@@ -4,8 +4,8 @@ main:
   - title: "CV"
     url: /files/CV_Girstmair.pdf
  
-  - title: "Research"
-    url: /publications/    
+  #- title: "Research"
+   # url: /publications/    
 
   - title: "Research"
     url: /research/  
