@@ -56,6 +56,8 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
+dynare:
+username                 : "https://forum.dynare.org/u/DoubleBass/summary"
 twitter:
   username               : &twitter
 facebook:
@@ -102,7 +104,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "stefan-girstmair-786437146"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -115,7 +117,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  Dynare           : "https://forum.dynare.org/u/DoubleBass/summary"
+  dynare           : "https://forum.dynare.org/u/DoubleBass/summary"
 
 
 # Reading Files
