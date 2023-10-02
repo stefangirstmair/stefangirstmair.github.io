@@ -15,5 +15,7 @@ I have also worked at the **European Central Bank**, where I have established th
 I will be available for interviews at both, the 2023-2024 *American Job Market* and *European Job Market*.
 
 
-
-
+### References:
+Michael Binder, Goethe University Frankfurt, mbinder@wiwiw.uni-frankfurt.de
+Volker Wieland, Goethe University Frankfurt, wieland@imfs-frankfurt.de
+Matteo Ciccarelli, European Central Bank, matteo.ciccarelli@ecb.europa.eu
