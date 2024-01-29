@@ -13,9 +13,8 @@ This paper investigates the importance of including data on new housing supply i
 
 [Download JMP here](http://stefangirstmair.github.io/files/JMP_Girstmair.pdf)
 
-*This paper has been accepted to be published in the ECB-WP series and is expected to be available online during January 2024*
+*This paper has been published in the ECB-WP series and and can be [downloaded here](https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2895~9c686f3def.en.pdf?a2c223df26c4ef1933424fb428d0d436)*
 
-[ECB-WP Version](http://stefangirstmair.github.io/files/ECB_WP_Girstmair.pdf)
 
 ## ECB-MC
 Collaborating closely with Matteo Ciccarelli and the dedicated team at the DGE-FPM division of the ECB, I am involved in writing a paper detailing the intricacies of their semi-structural model, ECB-MC. This model plays a pivotal role in generating ECB's projections and conducting crucial policy analyses. The current iteration comprises five distinct models tailored for the major economies within the euro area. My primary responsibility revolves around developing a version that links these five models, empowering the division to analyze cross-country spillovers stemming from a diverse set of shocks. This involves incorporating essential elements like trade and pricing links, as well as common exchange rates and monetary policy across the models. To facilitate wider accessibility and utilization, I ensure that the final model is integrated into their version-control software and workflow, aimed to benefit other divisions within the organization.
