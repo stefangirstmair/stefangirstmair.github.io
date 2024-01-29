@@ -13,7 +13,7 @@ This paper investigates the importance of including data on new housing supply i
 
 [Download JMP here](http://stefangirstmair.github.io/files/JMP_Girstmair.pdf)
 
-*This paper has been published in the ECB-WP series and and can be [downloaded here](https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2895~9c686f3def.en.pdf?a2c223df26c4ef1933424fb428d0d436)*
+*This paper has been published in the ECB-WP series and can be [downloaded here](https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2895~9c686f3def.en.pdf?a2c223df26c4ef1933424fb428d0d436)*
 
 
 ## ECB-MC
