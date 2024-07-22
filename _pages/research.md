@@ -15,7 +15,7 @@ This paper investigates the importance of including data on new housing supply i
 
 
 ## Determinacy in Multi-Country DSGE Models: The Role of Pricing Paradigms and Economic Openness
-*Work in progress*
+*Working Paper*
 
 This paper examines determinacy properties in a multi-country open economy framework, focusing on the impacts of dominant currency pricing (DCP), producer currency pricing (PCP), and local currency pricing (LCP) on monetary policy effectiveness. Utilizing a New Keynesian model with three symmetric economies, each guided by Taylor rules, the study extends the framework of Gopinath et al.(2020) to analyze how these pricing paradigms interact with central bank policies to achieve economic stability. The investigation highlights that higher economic openness amplifies interactions among central banks’ policies, complicating the attainment of determinacy. DCP significantly constrains policy parameters ensuring determinacy, particularly in open economies. Conversely, PCP and LCP offer relatively larger determinacy regions, allowing for greater domestic policy control. The findings emphasize the critical role of pricing paradigms and economic openness in formulating effective monetary policies. This study provides essential insights for central banks and policymakers in enhancing global economic stability through tailored policy recommendations based on the chosen pricing paradigm.
 
