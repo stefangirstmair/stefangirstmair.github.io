@@ -1,0 +1,357 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\geometry{left=2.3cm,right=2.3cm,top=2.1cm,bottom=2.1cm} 
+
+%%%%%%%%%%%%%%%%REFERENCES PACKET
+
+\newlength\listtripleitemmaincolumnwidth
+
+\makeatletter
+% \renewcommand*{\recomputecvlengths}{%
+%   \setlength{\quotewidth}{0.65\textwidth}%
+%   \setlength{\maincolumnwidth}{\textwidth-\separatorcolumnwidth-\hintscolumnwidth}%
+%   \setlength{\listitemmaincolumnwidth}{\maincolumnwidth-\listitemsymbolwidth}%
+%   \setlength{\doubleitemmaincolumnwidth}{\maincolumnwidth-\hintscolumnwidth-\separatorcolumnwidth-\separatorcolumnwidth}%
+%   \setlength{\doubleitemmaincolumnwidth}{0.5\doubleitemmaincolumnwidth}%
+%   \setlength{\listdoubleitemmaincolumnwidth}{\maincolumnwidth-\listitemsymbolwidth-\separatorcolumnwidth-\listitemsymbolwidth}%
+%   \setlength{\listdoubleitemmaincolumnwidth}{0.5\listdoubleitemmaincolumnwidth}%
+%   \setlength\listtripleitemmaincolumnwidth{.66\listdoubleitemmaincolumnwidth}%
+%   \renewcommand{\headwidth}{\textwidth}%
+%   \setlength{\parskip}{0\p@}%
+% }
+
+\newlength{\listdoubleitemmaincolumnwidth}%
+\setlength{\listdoubleitemmaincolumnwidth}{6.5cm}% 
+\makeatother
+
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvline{}{%
+  \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#1\end{minipage}%
+  \hfill%
+  \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#2\end{minipage}%
+ }%
+}
+
+\newcommand{\cvtriplecolumn}[3]{%
+  \cvline{}{%
+  \begin{minipage}[t]{\listtripleitemmaincolumnwidth}#1\end{minipage}%
+  \hfill%
+  \begin{minipage}[t]{\listtripleitemmaincolumnwidth}#2\end{minipage}%
+  \hfill%
+  \begin{minipage}[t]{\listtripleitemmaincolumnwidth}#3\end{minipage}%
+ }%
+}
+
+\newcommand{\cvreference}[7]{%
+  \textbf{#1}\newline% Name
+  \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+  \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+  \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+  \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+  \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
+  \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{\Huge Stefan} % Your first name
+\familyname{Girstmair} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Große Seestraße 44\\ Frankfurt am Main, 60486\\ }
+
+%\extrainfo{Theodor-W.-Adorno-Platz 3, 60323 Frankfurt am Main}
+\mobile{(+49) 15901398469}
+%\phone{(+39) 3408455268}
+%\fax{(000) 111 1113}
+\email{stefan.girstmair@gmail.com}
+\homepage{stefangirstmair.github.io}{} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%------------------------------------------------------------
+
+\nopagenumbers 
+\begin{document}
+
+
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+%\section{Research}
+\section{Research Interests} 
+%\cvitem{Macroeconomics}{Monetary Economics, Forecasting, and Bayesian Econometrics}
+\cvitem{}{\textbf{Macroeconomics}\begin{itemize} \itemindent=30pt
+		\item Monetary Economics
+		\item Forecasting 
+		\item Bayesian Econometrics
+\end{itemize}}
+
+
+\section{Professional Experience}
+% Arguments not required can be left empty
+\cventry{September 2024--}{Senior Economist}{}{Bank of Lithuania - Applied Macroeconomic Research Division}{Vilnius}{}
+
+\cventry{January 2024--May 2024}{Consultant}{}{ECB - European Central Bank - Forecasting and Policy Modelling Division (DGE)}{Frankfurt am Main}{\emph{Continue the work on the model established during the traineeship and co-author a paper describing its features.}}
+
+\cventry{May 2023--September 2023}{PhD-Trainee}{}{ECB - European Central Bank - Forecasting and Policy Modelling Division (DGE)}{Frankfurt am Main}{\emph{Developing a linked version of the semi-structural ECB-MC model mainly used for forecasting and policy analysis.}}
+
+\cventry{October 2018--}{Graduate Research and Teaching Assistant}{Chair of International
+	Macroeconomics and Macroeconometrics}{Goethe University}{Frankfurt am Main}{}
+
+\cventry{July 2015}{Intern}{}{OeNB - Austrian National Bank - Economic Analysis Department, Forecasting}{Vienna}{\emph{Updating a database used for forecasts as well as computations for internal and external papers. Using ECB, Statistik Austria, and Eurostat data}.}
+
+\cventry{July 2014}{Intern}{}{OeNB - Austrian National Bank - Economic Analysis Department, Forecasting}{Vienna}{\emph{Data processing to help write a paper on labor productivity developments in Austria compared to the U.S.. Main work on setting up and analyzing the database}.}
+
+%\cventry{August 2013 -- September 2013}{Intern}{}{Austrian Gallup Institute}{Vienna}{\emph{Responding to inquiries, opinion poll tasks, data collection, and administrative work}.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2017--2024}{Ph.D. in Economics}{Graduate School of Economics, Finance and Management}{Goethe University}{}{Thesis title: \emph{``Essays in Macroeconomics"}, Advisors: Prof. Michael Binder and Prof. Volker Wieland}
+
+\cventry{2015--2017}{M.Sc. Economics}{Institute for Advanced Studies (IHS)}{}{}{Thesis: \emph{``Unemployment in Austria: Job Losing and Job Finding"}}
+%------------------------------------------------
+
+\cventry{2012--2015}{B.Sc. Economics}{University of Vienna}{}{}{Thesis: \emph{``The Curse of Natural Resources: A Survey and Two Cases”}}
+
+%------------------------------------------------
+
+
+%\section{Working Papers and Other Publications}
+%\cventry{2021}{The Carrot and the Stick: Bank Bailouts and the
+%Disciplining Role of Board Appointments}{(with L, Pelizzon
+%and V. Pezone and A. V. Thakor)}{\emph{SAFE Working Paper No. 316, ECGI - Finance Working Paper, No. 742/2021}}{}{}
+
+%\cventry{2022}{Mind the liquidity gap: a discussion of money market fund reform proposals}{(with M. Grill, L. Molestina Vivar, C. O’Donnell, S. O’Sullivan, M. Wedow, M. Weis, C. Weistroffer)}{\emph{Macroprudential Bulletin - Article - No. 16}}{}{}
+
+%\cventry{2022}{Assessing the impact of a mandatory public debt quota for private debt money market funds}{(with M. Grill, L. Molestina Vivar, C. O’Donnell, M. Weis, C. Weistroffer)}{\emph{Macroprudential Bulletin - Article - No. 16}}{}{}
+
+\newpage
+
+\section{Reserach}
+\cventry{}{The Effect of New Housing Supply in Structural Models: A Forecasting Performance Evaluation}{ECB Working Paper Series No. 2895}{\newline Abstract: This paper investigates the importance of including data on new housing supply in Dynamic Stochastic General Equilibrium (DSGE) models in forecasting the Great Financial Crisis (GFC), focusing on the U.S. While existing models have added a financial sector and real estate sector, they have largely overlooked housing supply. I develop an extended DSGE model that includes both the financial sector and endogenous housing supply and show that forecasting accuracy significantly improves when data on new houses is included. Robustness checks confirm the importance of these additions to the model. The findings highlight the necessity of combining model extension and housing supply data for accurate forecasting during economic crises. I identify negative housing demand shocks and escalating adjustment costs as primary drivers of the GFC, propagating into the real economy and accelerating through the financial sector. Additionally, this paper addresses the zero lower bound challenge in modeling forward guidance using a regime change approach.}{}{}
+\cventry{}{Determinacy in Multi-Country DSGE Models: The Role of Pricing Paradigms and Economic Openness}{Dynare Working Paper Series No. 82}{\newline Abstract: This paper examines determinacy properties in a multi-country open economy framework, focusing on the impacts of dominant currency pricing (DCP), producer currency pricing (PCP), and local currency pricing (LCP) on monetary policy effectiveness. Utilizing a New Keynesian model with three symmetric economies, each guided by Taylor rules, the study extends the framework of Gopinath et al. (2020) to analyze how these pricing paradigms interact with central bank policies to achieve economic stability.
+The investigation highlights that higher economic openness amplifies interactions among central banks' policies, complicating the attainment of determinacy. DCP significantly constrains policy parameters ensuring determinacy, particularly in open economies. Conversely, PCP and LCP offer relatively larger determinacy regions, allowing for greater domestic policy control.
+The findings emphasize the critical role of pricing paradigms and economic openness in formulating effective monetary policies. This study provides essential insights for central banks and policymakers in enhancing global economic stability through tailored policy recommendations based on the chosen pricing paradigm.}{}{}
+\cventry{}{A Policy-Relevant Structural Macroeconomic Model for Emerging Market Economies with Illustration for Vietnam}{Together with Michael Binder, Le Van Ha and Anh H. Le}{}{\newline Abstract: To conduct policy analysis, for advanced economies usually numerous microfounded, institutionally relatively detailed, structural macroeconomic models are available. For emerging market economies, in contrast, there tends to be a lack of models of this type that contain the requisite institutional detail to forecast on par with reduced-form time-series models and carry out credible policy analysis. This paper considers as an example of an emerging market economy Vietnam, and introduces a New Keynesian-Dynamic Stochastic General Equilibrium (NK-DSGE) model that depicts Vietnam as an open economy that interacts with the U.S. and the rest of the world. We incorporate various institutional characteristics that we argue are representative for emerging market economies at least in Asia. These include: (i) international trade occurs within the global value chain and under the dominant currency pricing paradigm; (ii) there is a diverse production sector in the domestic economy that comprises privately-owned, state-owned, and foreign direct investment firms facing asymmetric financial frictions; and (iii) monetary policy in part pursues an exchange-rate target. We document that the estimated model can forecast core macroeconomic variables on par (and, at least partially, better) than a state-of-the-art Bayesian Vector Autoregressive model, and thus argue that our model can be fruitfully used for policy analysis. Among the main implications of our model are that while Vietnam's output losses stemming from contractionary domestic monetary policy shocks are larger than prior structural models would suggest, the transmission of foreign shocks to the Vietnamese economy is  weaker.}{}
+
+%\cventry{}{International Spillover of Forward Guidance: A story of the U.S. and Euro Area}{Together with Anh H. Le}{}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	ADD. EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Additional Education}
+
+\cventry{June 2024}{Heterogeneous-Agent Macroeconomics}{Goethe Macro Training School}{Adrien Auclert, Matthew Rognlie, and Ludwig Straub}{}{}
+
+
+\cventry{August 2023}{Machine Learning in Macroeconomics}{ECB}{Jesus Fernandez-Villaverde}{}{}
+
+\cventry{August 2019}{Optimal Fiscal and Monetary Policy}{Study Center Gerzensee}{Mikhail Golosov}{}{}
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+%\newpage
+%\section{Scholarships and Awards}
+
+%\cventry{}{SAFE PhD student grant 2017}{}{}{}{}
+
+%\cventry{}{Best Paper Award: CAFM Conference 2021}{\newline ``The Carrot and
+%the Stick: Bank Bailouts and the Disciplining Role of Board Appointments"}{ with
+%L. Pelizzon, V. Pezone and A. Thakor}{}{}
+
+%\cventry{}{Young Researchers Award: International Risk Management Conference 2021}{\newline ``The Carrot and
+%the Stick: Bank Bailouts and the Disciplining Role of Board Appointments"}{ with
+%L. Pelizzon, V. Pezone and A. Thakor}{}{}
+
+%\cventry{}{EFA travel grant 2022}{}{}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	Presentations SECTION
+%----------------------------------------------------------------------------------------
+
+
+%\section{Presentations at Conferences, Seminars, and Workshops}
+
+%\cvitem{2022}{ECB DGMF Seminar (online), MFA (Chicago, USA), FIRS Conference (Budapest, Hungary), 29th Global Finance Conference (Braga, Portugal), EFA (Barcelona, Spain), VfS Annual Conference (Basel, Switzerland), 28th Annual Meeting of the German Finance Association (Marburg, Germany)}{}{}{}{}
+
+%\cvitem{2021}{SAFE Brown Bag Seminar (online), MoFiR Workshop on Banking (online), International Risk Management Conference (Cagliari, Italy), SRB-FBF-SAFE Conference (online),  University of Szczecin FinSem (online)}{}{}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%PUBB
+%----------------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PRESENT
+
+
+% \section{Affiliations}
+% \cvitem{}{Financial Intermediation Research Society , Global Finance Association, European Finance Association}
+
+%\section{Service}
+
+%\subsection{Organizational and scientific committee member:}
+%\cvitem{2022}{Tri-City Day-Ahead Workshop on the Future of Financial Intermediation} 
+
+%\subsection{Discussant at:}
+%\cvitem{2022}{29th Global Finance  Conference (Braga): \emph{``Audit Effort in Global Systemic Banks"}, by Gerald J. Lobo, Romain Oberson and Alain Schatt}
+
+%\cvitem{2022}{28th Annual Meeting of the German Finance Association (Marburg): \emph{``Do Institutional Investors Discipline Firms for
+%Misconduct? The Consequences of Violating Anti-Money Laundering
+%Rules for Banks"}, by Andrea Schertler and Sandra Tillema}
+
+
+
+%%%%%%%%%%%%TA%%%%%%%%%%%%%%%%%%
+\section{Teaching}
+
+\cventry{}{Solution, Identification, and Estimation of DSGE Models}{PhD-Level, Prof. Michael Binder}{Teaching Assistant}{}{\begin{itemize} \itemindent=30pt
+		\item Winter 2023/24
+		\item Winter 2022/23
+		\item Winter 2021/22
+		\item Winter 2019/20
+\end{itemize}}
+\cventry{}{Macroeconomics 1 (BMAK)}{BSc-Level, Prof. Michael Binder}{Teaching Assistant}{}{\begin{itemize} \itemindent=30pt
+		\item Winter 2023/24
+		\item Winter 2022/23
+		\item Winter 2021/22
+		\item Winter 2020/21
+		\item Winter 2018/19
+\end{itemize}}
+% \cventry{}{}{}{}{}{At the University of Bonn}
+% \cventry{Summer 2016}{Principles of Economics: Introductory
+% Macroeconomics}{BA Economics,  Prof. Dr. J\"urgen von Hagen}{TA}{}{}
+
+% \cventry{}{}{}{}{}{At the University of Bayreuth}
+% \cventry{Winter 2014}{Geld und Kredit I}{BA Economics, Prof. Bernhard Herz}{TA}{}{}
+
+%----------------------------------------------------------------------------------------
+%	Work Experience
+%----------------------------------------------------------------------------------------
+
+
+
+
+
+%\section{Work Experience}
+
+%\cventry{Jul -- Oct 2014}{Internship}{Landesbank Baden-W\"urttemberg}{Stuttgart}{}{}
+
+%\cventry{Aug -- Dec 2021}{Consultant}{European Central Bank}{Frankfurt am Main}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Software and Databases Skills}
+
+%\cvitem{Basic}{SQL}
+\cvitem{Advanced}{Matlab, Dynare, Office, Git }
+\cvitem{Proficient}{R, Stata, Julia}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+\cvitemwithcomment{German}{Native}{}
+\cvitemwithcomment{English}{Excellent command}{}
+\cvitemwithcomment{French}{Beginner}{}
+\cvitemwithcomment{Korean}{Beginner}{}
+
+% \cvitemwithcomment{German}{Basic}{A2-B1}
+
+
+\section{References}
+
+\cvdoublecolumn{\cvreference{Michael Binder}{Professor of International Macroeconomics and Macroeconometrics}{Goethe University Frankfurt}{House of Finance, Campus Westend \\ Theodor-W.-Adorno- Platz 3}{60323 Frankfurt am Main}{mbinder@wiwiw.uni-frankfurt.de}{}}{\cvreference{Volker Wieland}{Professor of Monetary Economics}{IMFS - Goethe University Frankfurt}{House of Finance, Campus Westend\\
+		Theodor-W.-Adorno-Platz 3}{60323 Frankfurt am Main}{wieland@imfs-frankfurt.de}{}}
+%\cvtriplecolumn{\cvreference{A}{B}{C}{D}{E}{F}{G}}{\cvreference{A}{B}{C}{D}{E}{F}{G}}{\cvreference{A}{B}{C}{D}{E}{F}{G}}
+
+
+
+\vspace{0.2cm}
+\cvdoublecolumn{\cvreference{Matteo Ciccarelli}{Head of Forecasting and Policy Modelling Division}{European Central Bank}{Sonnemannstraße 20}{60314 Frankfurt am Main}{matteo.ciccarelli@ecb.europa.eu}{}}{}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists%
+
+%\cvlistdoubleitem{Reading}{}
+%\vspace*{\fill}
+%\begin{tiny}I declare that all the statements reported in this document correspond to the truth according to
+%the art. 46 and art. 47 of D.P.R. 445/2000. I am aware of the criminal sanctions imposed for
+%documents falsification and making the false declarations/statements above listed according to the
+%art. 76 of D.P.R. 445/2000.
+%I authorize the treatment of my personal data according to the D. Lgs. 196 of 30/6/2003 \end{tiny}
+
+%\vspace{0.2cm}
+%\small{Last update: \today}
+%----------------------------------------------------------------------------------------
+
+\end{document}
