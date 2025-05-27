@@ -12,6 +12,9 @@ main:
     
   - title: "Teaching"
     url: /teachingmd/    
+
+ - title: "Distribution Plotter"
+   url: /distribution-plotter/ 
     
   #- title: "Portfolio"
    # url: /portfolio/
