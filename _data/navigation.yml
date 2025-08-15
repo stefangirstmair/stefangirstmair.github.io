@@ -19,7 +19,8 @@ main:
   #- title: "Blog Posts"
    # url: /year-archive/
     
-
+  - title: "Distribution Plotter"
+    url: https://stefangirstmair.github.io/distribution-plotter/
     
   #- title: "Guide"
    # url: /markdown/
