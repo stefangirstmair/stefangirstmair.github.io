@@ -12,9 +12,6 @@ main:
     
   - title: "Teaching"
     url: /teachingmd/    
-
- - title: "Distribution Plotter"
-    url: https://stefangirstmair.github.io/distribution-plotter/
     
   #- title: "Portfolio"
    # url: /portfolio/
