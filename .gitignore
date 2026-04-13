@@ -1,2 +1,5 @@
 _site/
 
+# Claude Code files
+CLAUDE.md
+.claude/

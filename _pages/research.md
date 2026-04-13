@@ -6,6 +6,12 @@ title: "Research"
 {% include base_path %}
 
 
+## LITMAS: The Lithuanian Model for Analysis of Scenarios
+*Working Paper, forthcoming*
+
+We develop a large scale open economy DSGE model for policy analysis in Lithuania within the Euro Area (EA) monetary union. The model features two fully specified regions (Lithuania and the rest of the EA) linked through trade flows, a common monetary policy, and a fixed nominal exchange rate. Each region comprises a goods production sector, a construction sector, households, and a fiscal authority. The model incorporates international trade in both consumer and investment goods, with separate pricing mechanisms for each category and region. An energy good imported from outside the euro area serves as an input in goods production, construction, and household consumption. We estimate the model using Lithuanian and EA data, providing an empirically grounded framework for scenario analysis and evaluation of fiscal policy measures in a general equilibrium setting. The detailed fiscal structure and an energy sector integration make the model particularly suited for analysing policy transmission mechanisms through scenario analyses and simulations.
+
+
 ## The Effect of New Housing Supply in Structural Models: A Forecasting Performance Evaluation
 *Working Paper*
 

@@ -10,11 +10,11 @@ main:
   - title: "Research"
     url: /research/  
     
-  - title: "Teaching"
-    url: /teachingmd/
-
   - title: "Policy"
     url: /policy/
+
+  - title: "Teaching"
+    url: /teachingmd/
 
   #- title: "Portfolio"
    # url: /portfolio/
