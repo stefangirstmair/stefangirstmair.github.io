@@ -18,6 +18,14 @@ This paper investigates the importance of including data on new housing supply i
 
 # Work in Progress
 
+## Time-Varying Attention and its Consequences for Monetary and Fiscal Policy
+*Working Paper, with Michał Brzoza-Brzezina*
+
+What are the consequences of time-varying attention to the future for business cycle dynamics, monetary and fiscal policy? What drives it? How good (or wrong) is the standard assumption of behavioral macroeconomic models that attention is constant? To answer these questions we estimate a behavioral New Keynesian model a la Gabaix (2020) in which the cognitive discounting parameter governing expectation formation varies over time. Utilizing new Bayesian MCMC methods on U.S. data from 1970 to 2025, we find substantial time variation in attention. The estimated series co-moves with inflation expectations, measures of forecast disagreement and macroeconomic uncertainty, increasing markedly during periods of heightened economic volatility. Time-varying attention had important macroeconomic implications, as it changed significantly the transmission of structural shocks, the effectiveness of policies and - to some extent - even the volatility of business cycle fluctuations.
+
+*The current version of the paper can be [downloaded here](https://www.dropbox.com/scl/fi/6353bi3a6k17dtf62995c/Time_Varying_Attention_and_its_Consequences_for_Monetary_and_Fiscal_Policy.pdf?rlkey=s4kmtbcr3a59a592hums3ucob&st=3kr5jaa9&e=1&dl=0).*
+
+
 ## LITMAS: The Lithuanian Model for Analysis of Scenarios
 *Working Paper, forthcoming*
 
