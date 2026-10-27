@@ -6,6 +6,14 @@ title: "Policy"
 {% include base_path %}
 
 
+## Lithuania's Fertility Challenge: Trends and Policy Options
+*Occasional Paper Series, No. 63/2026, Bank of Lithuania*
+
+Lithuania has one of the lowest fertility rates among advanced economies. This report combines population-wide administrative microdata, international evidence, and descriptive regressions for European countries to identify the main features of Lithuania's recent fertility decline and the policy areas most relevant to addressing it. The microdata show that younger cohorts have fewer children at the same age and are more likely to remain childless, suggesting lower completed fertility unless substantial catch-up occurs at older ages. The decline is increasingly concentrated at the transition into parenthood, while family size among mothers remains relatively stable. The combined evidence suggests a targeted and coordinated policy mix rather than a single intervention: financial and parental leave support concentrated around the first birth; reliable childcare availability coordinated with paid parental leave and flexible return-to-work arrangements; measures to improve housing affordability; and timely fertility information and equitable access to infertility care.
+
+*Can be [downloaded here](https://www.lb.lt/uploads/publications/docs/79878_13b4de8e02738610ac62901a0884e3ce.pdf).*
+
+
 ## Indexation, Reserves, and Crisis Resilience: An Assessment of Lithuania's Social Insurance Fund
 *Occasional Paper Series, No. 60/2026, Bank of Lithuania*
 
