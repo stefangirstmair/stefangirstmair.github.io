@@ -24,6 +24,9 @@ main:
     
   - title: "Distribution Plotter"
     url: https://stefangirstmair.github.io/distribution-plotter/
+
+  - title: "LT Dashboard"
+    url: https://stefangirstmair.github.io/lt-economy-dashboard/
     
   #- title: "Guide"
    # url: /markdown/
