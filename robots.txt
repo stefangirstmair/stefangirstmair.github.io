@@ -3,3 +3,4 @@ Allow: /
 
 Sitemap: https://stefangirstmair.github.io/sitemap.xml
 Sitemap: https://stefangirstmair.github.io/lt-economy-dashboard/sitemap.xml
+Sitemap: https://stefangirstmair.github.io/distribution-plotter/sitemap.xml
