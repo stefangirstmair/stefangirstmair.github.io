@@ -127,6 +127,14 @@ include:
   - _pages
   - files
 exclude:
+  # repo notes and sources that should not be served (SEO clean-up 2026-11-23)
+  - CLAUDE.md
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - markdown_generator
+  - talkmap.ipynb
+  - talkmap.py
+  - CV            # LaTeX source of the CV; the public PDF is files/CV_Girstmair.pdf
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -195,6 +203,15 @@ collections:
 
 # Defaults
 defaults:
+  # keep technical files out of sitemap.xml
+  - scope:
+      path: "googlea622ffd5cccf0978.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "talkmap"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
