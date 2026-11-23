@@ -11,7 +11,7 @@ title                    : "Stefan Girstmair"
 title_separator          : "-"
 name                     : &name "Stefan Girstmair"
 description              : &description "Senior Economist at the Bank of Lithuania, specializing in Monetary Economics, Forecasting, and Bayesian Econometrics"
-url                      : https://stefangirstmair.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://stefangirstmair.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "stefangirstmair/stefangirstmair.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -50,7 +50,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : "googlea622ffd5cccf0978.html"
+google_site_verification : # verified with the file googlea622ffd5cccf0978.html; this key takes the meta-tag token, not a file name
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
